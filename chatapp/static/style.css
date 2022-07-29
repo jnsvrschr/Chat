@@ -1,0 +1,26 @@
+body {
+    font-family: 'Comic Sans MS', 'cursive';
+    font-size: 15px;
+    margin-bottom: 100px;
+    margin-left: 15px;
+}
+
+form {
+    margin: 0;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    background-color: white;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+label, input {
+    font-family: 'Comic Sans MS', 'cursive';
+    font-size: 20px;
+}
+
+#tekst {
+    width: 500px;
+}

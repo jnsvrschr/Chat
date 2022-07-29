@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+    {% for x in chatgeschiedenis %}
+        <h1>{{ x.verzender }}: {{ x.inhoud }}</h1>
+    {% endfor %}
+    <form action="" method="post">
+        {% csrf_token %}
+        <label for="tekst">Typ hier je bericht: </label>
+        <input type="text" id="tekst" name="tekst">
+        <input type="submit">
+    </form>
+{% endblock %} 
